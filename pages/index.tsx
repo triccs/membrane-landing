@@ -8,7 +8,7 @@ import React from "react";
 // import "./styles/global.css";
 
 
-export default function Option(){
+export default function Home(){
   const [FAQ, setFAQ] = React.useState("Users");
 
   const reserveClick = () => {
