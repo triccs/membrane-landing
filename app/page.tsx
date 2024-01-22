@@ -8,7 +8,7 @@ import React from "react";
 // import "./styles/global.css";
 
 
-export const Option = (): JSX.Element => {
+export default function Option(){
   const [FAQ, setFAQ] = React.useState("Users");
 
   const reserveClick = () => {
@@ -639,5 +639,3 @@ export const Option = (): JSX.Element => {
         </div>
   );
 };
-
-export default Option;
